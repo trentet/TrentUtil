@@ -82,7 +82,7 @@ namespace TrentUtil
             string importFileName = "";
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
-                Filter = "|All files (*.*)|*.*",
+                Filter = "All files (*.*)|*.*",
                 RestoreDirectory = true
             };
             DialogResult result = openFileDialog.ShowDialog(); // Show the dialog.
